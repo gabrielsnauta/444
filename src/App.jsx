@@ -25,7 +25,7 @@ const CImg = styled.section`
 `;
 const Content_Styled = styled.section`
   display: flex;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   align-items: center;
   flex-direction: column;
@@ -47,6 +47,7 @@ function Bt_continuar(props) {
         display: "flex",
         padding: "2px 12px",
         transition: "opacity 1s",
+        backgroundColor: "#242424",
       }}
     >
       <img style={{ width: "28px" }} src="/continuar.png" />
@@ -412,8 +413,8 @@ function Content5() {
       <Content_Styled>
         {cena == 1 && <C1 />}
         {cena == 2 && <C2 />}
-        {cena == 3 && <C3 />}
-        {cena == 4 && <C4 />}
+
+        {cena == 3 && <C4 />}
       </Content_Styled>
     </div>
   );
