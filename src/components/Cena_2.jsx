@@ -30,8 +30,12 @@ export default function Cena_Context() {
         transform: "translateY(-100px)",
       }}
     >
-      {cena == 1 && <TextAnimation text={txt1} t={t1} sett={sett1} i={50} />}
-      {cena == 2 && <TextAnimation text={txt2} t={t2} sett={sett2} i={50} />}
+      {cena == 1 && (
+        <TextAnimation color="white" text={txt1} t={t1} sett={sett1} i={50} />
+      )}
+      {cena == 2 && (
+        <TextAnimation color="white" text={txt2} t={t2} sett={sett2} i={50} />
+      )}
     </div>
   );
 }

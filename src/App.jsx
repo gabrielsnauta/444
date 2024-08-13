@@ -168,7 +168,7 @@ function Content2(props) {
           alignItems: "center",
         }}
       >
-        <TextAnimation text={txt2} i={50} />
+        <TextAnimation color="white" text={txt2} i={50} />
         <Bt_continuar onClick={() => props.setc(5)} i={4000} />
       </div>
     );
