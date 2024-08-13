@@ -1,0 +1,25 @@
+.e {
+  border: 1px solid;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 0;
+  justify-content: start;
+  overflow: hidden;
+}
+
+.open {
+  width: 190px;
+
+  transition-property: width;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}
+
+.close {
+  width: 27px;
+
+  transition-property: width;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}

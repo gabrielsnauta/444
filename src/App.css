@@ -1,0 +1,40 @@
+p {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.animated-text {
+  opacity: 1;
+}
+
+.content2 {
+  transform: translateX(0px);
+
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.content2-f {
+  transform: translateX(400px);
+
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.t1 {
+  transform: translateX(0);
+
+  transition-property: transform;
+  transition-duration: 5s;
+  transition-timing-function: ease-out;
+}
+
+.t2 {
+  transform: translateX(300px);
+
+  transition-property: transform;
+  transition-duration: 5s;
+  transition-timing-function: ease-out;
+}
